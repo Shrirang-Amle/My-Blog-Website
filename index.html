@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <marquee behavior="scroll" direction="left" style="background-color: #f4f4f9; color: #0d1b2a; font-size: 20px; padding: 10px;">Welcome to my Blog Website!!</marquee>
+    <div class="container">
+        <img src="https://ncmagroup.wordpress.com/wp-content/uploads/2020/07/blog-logo-black-css.jpg" alt="Blog" width="200" height="100">
+        <h1>Blog Creation</h1>
+        <form id="blogForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Content" required></textarea>
+            <input type="text" id="author" placeholder="Author" required>
+            <center><button type="submit">Add Blog</button></center>
+        </form>
+        <div id="blogs" class="blog-container"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
